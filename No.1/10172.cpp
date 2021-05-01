@@ -1,3 +1,5 @@
+// 개를 출력하시오
+
 #include <iostream>
 using namespace std;
 
