@@ -1,4 +1,4 @@
-// A * B
+// A*
 
 #include <iostream>
 using namespace std;
