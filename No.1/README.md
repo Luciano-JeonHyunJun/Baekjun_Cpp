@@ -141,7 +141,7 @@ int main() {
 > 위와 동일합니다.
 <a href="https://atomic0x90.github.io/c++/2020/02/17/c++-escape-sequence.html">이스케이프 시퀸스 종류 확인하기</a>
 
-## <a href="https://www.acmicpc.net/problem/1000">1000번A+B</a>
+## <a href="https://www.acmicpc.net/problem/1000">1000번 A+B</a>
 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
 > 입력
 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
