@@ -5,7 +5,7 @@
 - [10718번 We love krii](#10718번-We-love-krii)
 - [10171번 고양이](#10171번-고양이)
 - [10172번 개](#10172번-개)
-- [1000번 A + B](#1000번 A + B)
+- [1000번 A + B](#1000번-A-+-B)
 
 ## <a href="https://www.acmicpc.net/problem/2557">2557번 Hello World</a> 
 Hello World!를 출력하시오.
