@@ -4,6 +4,8 @@
 - [2557번 Hello World](#2557번-Hello-World)
 - [10718번 We love krii](#10718번-We-love-krii)
 - [10171번 고양이](#10171번-고양이)
+- [10172번 개](#10172번-개)
+- [1000번 A + B](#1000번 A + B)
 
 ## <a href="https://www.acmicpc.net/problem/2557">2557번 Hello World</a> 
 Hello World!를 출력하시오.
@@ -101,6 +103,79 @@ int main() {
 
 ### 참고자료
 <a href="https://atomic0x90.github.io/c++/2020/02/17/c++-escape-sequence.html">이스케이프 시퀸스 종류 확인하기</a>
+
+## <a href="https://www.acmicpc.net/problem/10172">10172번 개</a>
+아래 예제와 같이 개를 출력하시오.
+> 예제
+~~~cpp
+|\_/|
+|q p|   /}
+( 0 )"""\
+|"^"`    |
+||_/=\\__|
+~~~
+
+~~~cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  cout<<"|\\_/|"<<endl;
+  cout<<"|q p|   /}"<<endl;
+  cout<<"( 0 )\"\"\"\\"<<endl;
+  cout<<"|\"^\"`    |"<<endl;
+  cout<<"||_/=\\\\__|"<<endl;
+
+  return 0;
+}   
+~~~
+
+### 설명
+위에 고양이 문제처럼 이번에 **개** 문제도 이스케이프 문자를 활용하는 문제인데요.<br />
+저는 고양이를 풀때보다 **개** 라는 문제가 더욱 활용도가 높아보였습니다.<br />
+우선 위에서 설명한대로 이스케이프 문자는 \\ 를 쓰면 **\으로 출력이 된다는 규칙** 이 있습니다.
+그걸 활용해서 문제를 해결하시면 됩니다.
+
+### 참고자료
+> 위와 동일합니다.
+<a href="https://atomic0x90.github.io/c++/2020/02/17/c++-escape-sequence.html">이스케이프 시퀸스 종류 확인하기</a>
+
+## <a href="https://www.acmicpc.net/problem/1000"> 1000번 A + B</a>
+두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
+> 입력
+첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+
+~~~cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+
+int a , b;
+
+cin>>a>>b;
+
+cout<<a+b;
+
+  return 0;
+}
+~~~
+
+### 설명
+이 문제는 일단 파이썬을 포커스로 맞추고 설명을 드리겟습니다 , 우선 처음보는 **cin** 은 어떤 역활일까요? cin은 입력을 받는 키워드입니다.<br />
+cin은 그러면 파이썬에서는 어떤 역활을 하고 있을까요? 바로 **input()** 입니다. 저 문제를 파이썬으로 풀면 이런 코드가 되는데요
+~~~ python
+a,b = int(input())
+
+print(a + b)
+~~~
+이런 간단한 코드입니다. 그러면 코드에서는 a,b를 int라는 정수형으로 입력을 받은 상태인건데요. <br />
+그후에는 문제에서 원하는데로 cout 즉 출력을 시키는 키워드로 a + b의 값을 출력시킬수 있도록 하시면 됩니다.
+
+### 참고자료
+<a href="https://www.cplusplus.com/doc/tutorial/basic_io/">cin괴cout을 정리해둔 사이트</a>
+
 
 
 
