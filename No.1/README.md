@@ -174,7 +174,7 @@ print(a + b)
 그후에는 문제에서 원하는데로 cout 즉 출력을 시키는 키워드로 a + b의 값을 출력시킬수 있도록 하시면 됩니다.
 
 ### 참고자료
-<a href="https://www.cplusplus.com/doc/tutorial/basic_io/">cin괴cout을 정리해둔 사이트</a>
+<a href="https://www.cplusplus.com/doc/tutorial/basic_io/">cin과cout을 정리해둔 사이트</a>
 
 
 
