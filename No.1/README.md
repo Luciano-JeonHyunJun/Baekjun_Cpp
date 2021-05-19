@@ -225,7 +225,11 @@ cout<<a * b;
 
 ### 설명
 이 문제 또한 간단합니다 단지 프로그래밍이나 컴퓨터의 곱셈 문자만 알고 있다면 쉽게 풀고 제출 할수 있는 문제입니다.
-컴퓨터 프로그래밍에서 곱하기는 수학과목에서는 x 지만 컴퓨터에서 인식을 시키려면 <strong>*</strong> 로 써야합니다
+컴퓨터 프로그래밍에서 곱하기는 수학과목에서는 x 지만 컴퓨터에서 인식을 시키려면 * 로 써야합니다. <br />
+
+### 참고자료
+<a href="https://m.blog.naver.com/PostView.naver?blogId=brickbot&logNo=220471008262&proxyReferer=https:%2F%2Fwww.google.com%2F">컴퓨터 산술연산자 종류</a>
+
 
 
 
