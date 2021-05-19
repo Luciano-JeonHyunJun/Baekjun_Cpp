@@ -7,6 +7,7 @@
 - [10172번 개](#10172번-개)
 - [1000번 A+B](#1000번-A+B)
 - [1001번 A-B](#1001번-A-B)
+- [10998번 AxB](#10998번-AxB)
  
 ## <a href="https://www.acmicpc.net/problem/2557">2557번 Hello World</a> 
 Hello World!를 출력하시오.
@@ -178,6 +179,55 @@ print(a + b)
 <a href="https://www.cplusplus.com/doc/tutorial/basic_io/">cin과cout을 정리해둔 사이트</a>
 
 ## <a href="https://www.acmicpc.net/problem/1001">1001번 A-B</a>
+두 정수 A와 B를 입력받은 다음, A-B를 출력하는 프로그램을 작성하시오
+> 입력
+첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+
+~~~cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+
+int a , b;
+cin>>a>>b;
+cout<<a-b;
+
+  return 0;
+}
+~~~
+
+### 설명 
+이 문제에서는 우선적으로 위에 문제와 똑같은 방식으로 **cin** 으로 입력을 받아줍니다.<br />
+그후에 a + b 를 a - b 로 변경해주시면 됩니다.
+
+### 참고자료
+**없습니다 읽어주셔서 감사합니다 :)**
+
+## <a href="https://www.acmicpc.net/problem/10998">10998번 AxB</a>
+두 정수 A와 B를 입력받은 다음, A×B를 출력하는 프로그램을 작성하시오.
+>입력
+첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+
+~~~cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+
+int a , b;
+cin>>a>>b;
+cout<<a * b;
+
+  return 0;
+}
+~~~
+
+### 설명
+이 문제 또한 간단합니다 단지 프로그래밍이나 컴퓨터의 곱셈 문자만 알고 있다면 쉽게 풀고 제출 할수 있는 문제입니다.
+컴퓨터 프로그래밍에서 곱하기는 수학과목에서는 x 지만 컴퓨터에서 인식을 시키려면 <strong>*</strong> 로 써야합니다
+
+
 
 
 
