@@ -1,26 +1,25 @@
 #include <iostream>
-
 using namespace std;
 
-int main(){
-	int A,B,C;
-	int mul = 0;
-	int arr[10]={0};
-	cin>>A;
-	cin>>B;
-	cin>>C;
-	mul = A * B * C;
+int main()
+{
+	int a , b , c;
+	cin >> a >> b >> c;
 	
-	while(mul !=0){
-		arr[mul%10]+=1;
-		mul = mul/10;
+	int arr[10] = {0};
+
+	int	cl = a * b * c;
+	
+	
+	while(cl != 0){
+		arr[cl % 10] += 1;
+		cl /= 10;
 	}
 	
-	
-	for(int i=0;i<10;i++)
-	{
-		cout<<arr[i]<<endl;
+	for(int i = 0; i < 10;i ++){
+		cout << arr[i] << endl;
 	}
-	
-	return 0;
+    
+
+    return 0;
 }
