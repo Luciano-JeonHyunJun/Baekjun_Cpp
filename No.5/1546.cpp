@@ -20,7 +20,7 @@ int main()
 	result = (result / max * 100) /n; // 결과는 결과 나누기 max 곱하기 100 나누기 n
 	
 	cout << fixed;
-	cout.precision(6);
+	cout.precision(6); // 소수점 6번째 자리까지 출력 
 	cout << result << endl; 
 	
 	return 0;
