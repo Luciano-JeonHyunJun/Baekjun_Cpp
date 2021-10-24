@@ -19,7 +19,7 @@ using namespace std;
 
 int main()
 {
-	bool arr [10001];
+	bool arr [10001]; // bool 타입으로 배열 하나 만들기 
 	
 	int tmp;
 	
@@ -29,18 +29,18 @@ int main()
 	}
 	for(int i = 0; i <= 10000; i++) 
 	{
-		tmp = d(i); 
+		tmp = d(i);  // int형인 tmp는 int d 즉 위에 만든 함수의 n 역할을 한다 
 		
-		if(tmp <= 10000)
+		if(tmp <= 10000) 
 		{
-			arr[tmp] = false;
+			arr[tmp] = false; // 만약 10000보다 같거나 크면 배열안에 tmp 즉 int d 함수로 계산한 결과값은 false 
 		}
 		
 	}
 	
 	for(int i = 0; i <= 10000; i++)
 	{
-		if(arr[i])
+		if(arr[i])  
 		{
 			cout << i << "\n";
 		}	
