@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	string S = 0; // S¸¦ R¹ø ¹Ýº¹ÇÏ°í  
+	string S = 0; // SÂ¸Â¦ RÂ¹Ã¸ Â¹ÃÂºÂ¹Ã‡ÃÂ°Ã­  
 	int T,R;
 	
 	cin >> S >> R;
