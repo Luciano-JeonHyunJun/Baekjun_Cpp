@@ -1,25 +1,24 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 int main()
 {
-	string S = 0; // SÂ¸Â¦ RÂ¹Ã¸ Â¹ÃÂºÂ¹Ã‡ÃÂ°Ã­  
-	int T,R;
+	int T, R; 
+	string S;
+	cin >> T;
 	
-	cin >> S >> R;
-	
-	for(int i = 0; i < T; i++)
+	for(int i = 0; i < T; i++) // ÀÔ·Â¹ÞÀº Tº¸´Ù Ä¿Áö°Å³ª °°À»¶§±îÁö ¹Ýº¹ 
 	{
-		for(int k = 0; k < S.length(); k++)
+		
+		cin >> R >> S;
+		for(int k = 0; k < S.length(); k++) // k´Â SÀÇ Å©±â¸¸Å­ ¹Ýº¹ 
 		{
-			for(int j = 0; j < R; j++)
-			{
-				cout << S[k];
-			}
+			for(int j = 0; j < R; j++) //À§¿Í µ¿ÀÏÇÏ°Ô R¸¸Å­(RÀÇ Å©±âX) 
+				cout << S[k]; 
 		}
 		cout << endl;
 	}
-	
-	return 0;
+	return 0;	
 }
